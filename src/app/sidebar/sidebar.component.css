@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    margin-left: 2rem;
+}
+
+.box {
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #515C62;
+    color: white;
+}
+
+.box:hover {
+    color: orange; 
+    cursor: pointer;
+    background-color: #1E2C32;
+}
+
+.active {
+    background-color: #1E2C32;
+    color: orange;
+    position: relative;
+}
+
+/* .active::after {
+    content: 'Hello';
+    position: absolute;
+    right: -1rem;
+    margin-top: 3rem;
+    border: 4px solid red;
+    border-radius: 3rem;
+
+} */
+
+.badge {
+    background-color: #44555B;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.full {
+    height: 100vh;
+}
+
+.space {
+    padding-top: 2rem;
+    height: 5rem;
+}
+
+.bottom-box {
+    border-top: 1px solid #515C62;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    padding: 2rem 3rem;
+}

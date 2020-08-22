@@ -1,0 +1,191 @@
+[
+    {
+        "id": 235,
+        "description": "Re: Application Reviews Data Requested",
+        "timestamp": "12: 30: 21",
+        "read": false,
+        "chartOptions": {
+            "xAxis": {
+                "type": "category",
+                "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+              },
+              "yAxis": {
+                "type": "value"
+              },
+              "series": [{
+                "data": [820, 932, 901, 934, 1290, 1330, 1320],
+                "type": "line"
+              }]
+        }
+    },
+    {
+        "id": 236,
+        "description": "Statistics re-evaluted as per the guidelines.",
+        "timestamp": "2: 22: 19",
+        "read": false,
+        "chartOptions":
+        {
+            "color": ["#3398DB"],
+            "tooltip": {
+                "trigger": "axis",
+                "axisPointer": {
+                "type": "shadow"
+                }
+            },
+            "grid": {
+                "left": "3%",
+                "right": "4%",
+                "bottom": "3%",
+                "containLabel": true
+            },
+            "xAxis": [
+                {
+                "type": "category",
+                "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+                "axisTick": {
+                    "alignWithLabel": true
+                }
+                }
+            ],
+            "yAxis": [{
+                "type": "value"
+            }],
+            "series": [{
+                "name": "Counters",
+                "type": "bar",
+                "barWidth": "60%",
+                "data": [10, 52, 200, 334, 390, 330, 220]
+            }]
+        }
+    },
+    {
+        "id": 237,
+        "description": "Follow up on the last conversation, data requested.",
+        "timestamp": "12: 32: 2",
+        "read": false,
+        "chartOptions": {
+            "xAxis": {
+                "type": "category",
+                "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+              },
+              "yAxis": {
+                "type": "value"
+              },
+              "series": [{
+                "data": [820, 932, 901, 934, 1290, 1330, 1320],
+                "type": "line"
+              }]
+        }
+    },
+    {
+        "id": 238,
+        "description": "Important Update: issue assigned to xyz under label A.",
+        "timestamp": "12: 3: 2",
+        "read": false,
+        "chartOptions": {
+          "tooltip": {
+            "trigger": "item",
+            "formatter": "{a} <br/>{b}: {c} ({d}%)"
+          },
+          "legend": {
+              "orient": "vertical",
+              "left": 10,
+              "data": ["Fri", "Mon", "Sat", "Sun", "Thu"]
+          },
+          "series": [
+              {
+                  "name": "pie chart",
+                  "type": "pie",
+                  "radius": ["50%", "70%"],
+                  "avoidLabelOverlap": false,
+                  "label": {
+                      "show": false,
+                      "position": "center"
+                  },
+                  "emphasis": {
+                      "label": {
+                          "show": true,
+                          "fontSize": "30",
+                          "fontWeight": "bold"
+                      }
+                  },
+                  "labelLine": {
+                      "show": false
+                  },
+                  "data": [
+                      {"value": 335, "name": "Fri"},
+                      {"value": 310, "name": "Mon"},
+                      {"value": 234, "name": "Sat"},
+                      {"value": 135, "name": "Sun"},
+                      {"value": 1548, "name": "Thu"}
+                  ]
+              }
+          ]
+        }
+    },
+    {
+        "id": 239,
+        "description": "Last Minute changes to the column names.",
+        "timestamp": "9: 40: 3",
+        "read": false,
+        "chartOptions": {
+            "xAxis": {
+                "type": "category",
+                "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+              },
+              "yAxis": {
+                "type": "value"
+              },
+              "series": [{
+                "data": [820, 932, 901, 934, 1290, 1330, 1320],
+                "type": "line"
+              }]
+        }
+    },
+    {
+        "id": 230,
+        "description": "Daily logs and statistics for the project deployment and performance.",
+        "timestamp": "11: 3: 29",
+        "read": false,
+        "chartOptions": {
+          "tooltip": {
+            "trigger": "item",
+            "formatter": "{a} <br/>{b}: {c} ({d}%)"
+          },
+          "legend": {
+              "orient": "vertical",
+              "left": 10,
+              "data": ["Fri", "Mon", "Sat", "Sun", "Thu"]
+          },
+          "series": [
+              {
+                  "name": "pie chart",
+                  "type": "pie",
+                  "radius": ["50%", "70%"],
+                  "avoidLabelOverlap": false,
+                  "label": {
+                      "show": false,
+                      "position": "center"
+                  },
+                  "emphasis": {
+                      "label": {
+                          "show": true,
+                          "fontSize": "30",
+                          "fontWeight": "bold"
+                      }
+                  },
+                  "labelLine": {
+                      "show": false
+                  },
+                  "data": [
+                      {"value": 335, "name": "Fri"},
+                      {"value": 310, "name": "Mon"},
+                      {"value": 234, "name": "Sat"},
+                      {"value": 135, "name": "Sun"},
+                      {"value": 1548, "name": "Thu"}
+                  ]
+              }
+          ]
+        }
+    }
+]

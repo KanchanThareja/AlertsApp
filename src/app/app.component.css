@@ -1,0 +1,60 @@
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.box {
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid rgb(187, 172, 172);
+    color: white;
+}
+
+.box:hover {
+    color: orange; 
+    cursor: pointer;
+    background-color: #7C878C;
+}
+
+.active {
+    background-color: rgb(102, 96, 96);
+    color: orange;
+    position: relative;
+}
+
+.badge {
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.full {
+    height: 100vh;
+}
+
+.space {
+    padding-top: 2rem;
+    height: 5rem;
+}
+
+.bottom-box {
+    border-top: 1px solid rgb(187, 172, 172);
+    position: fixed;
+    bottom: 0;
+    color: white;
+    padding: 2rem 3rem;
+}
+
+.head {
+    background-color: #25363F;
+}
+
+.sidebar {
+    background-color: #25363F;   
+}
+
+.alerts {
+    background-color: #EEF2F0;
+}
+

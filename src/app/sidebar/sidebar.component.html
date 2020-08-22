@@ -1,0 +1,10 @@
+<div class="box" *ngFor="let item of alertCategories" (click)="setAlertType(item.type)" [ngClass] = "{'active': alertType == item.type}"> 
+  <span class="badge badge-pill float-right mr-2">{{ item.length }}</span> 
+  <div class="space">
+    {{ item.type }}
+  </div>
+</div> 
+
+<div class="bottom-box"> 
+    User Defined alerts
+</div>

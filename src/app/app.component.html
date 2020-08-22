@@ -1,0 +1,11 @@
+<div class="container-fluid">
+  <Header class="row head"></Header>
+  
+  <div class="row full">
+      <Sidebar class="col-2 pl-0 pr-0 sidebar" [alertCategories] = "alertCategories" [defaultCategory] = "defaultCategory" (selectedAlertType) = "setAlertType($event)"></Sidebar>
+      <alerts class="col-4 pl-0 pr-0 alerts" (selectedAlert) = "selectedAlert($event)" [alertsList] = "alertsList" [list_header_lengths] = "list_header_lengths"></alerts>
+      <graph-section class="col pl-0 pr-0 graph" [chartOption]="chartOption" [chartTitle]="chartTitle"></graph-section>
+  </div>
+
+</div> 
+

@@ -1,0 +1,12 @@
+<div class="contain">
+    <div class="center pl-4">Alerts (total {{list_header_lengths.alerts_length}}, Unread
+        {{list_header_lengths.unread_alerts_length}})</div>
+    <div class="cards">
+        <div class="card-text pl-4" *ngFor="let alert of _alertsList" (click)="clickHandler(alert)"
+            [ngClass]="{'unread': !alert.read}">
+                <p>{{alert.description}}</p>
+                <div>{{alert.timestamp}} hrs</div>
+        </div>
+
+    </div>
+</div>

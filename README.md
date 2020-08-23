@@ -1,6 +1,7 @@
 # AlertApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0. <br>
+Deployed on firebase : [AlertApp](https://alertapp-64417.web.app/)
 
 ## Development server
 
